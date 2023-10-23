@@ -8,7 +8,9 @@ class Buhonline(BasePage):
         self.base_url = 'https://www.buhonline.ru/'
         super().__init__(driver, self.base_url)
 
-        self.icon = WebElement(driver, '')
-        self.btn_elements = WebElement(driver, '')
-        self.footer_text = WebElement(driver, '')
-        self.h5 = WebElement(driver, '')
+        self.search = WebElement(driver, 'div.searchWrap--57d3.searchWrap_bgr--4062.hidden-xs.noprint')
+
+        # self.icon = WebElement(driver, '')
+        # self.btn_elements = WebElement(driver, '')
+        # self.footer_text = WebElement(driver, '')
+        # self.h5 = WebElement(driver, '')

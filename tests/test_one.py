@@ -1,5 +1,2 @@
-
-
-def test_one():
-    assert (1, 2, 3) == (1, 2, 3)
-
+import time
+import conftest import browser
