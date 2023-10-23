@@ -2,6 +2,7 @@ import logging
 import requests
 from components.components import WebElement
 
+
 class BasePage:
     def __init__(self, driver, base_url):
         self.driver = driver
