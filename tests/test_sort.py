@@ -23,4 +23,9 @@ def test_sort(browser):
     page_element.refresh()
     page_element.filter_btn.click()
     page_element.select_filter_btn_next.click()
+
+    # assert len(page_element.window_handles) == 1
+    page_element.new_tab.click()
+    time.sleep(2)
+
     time.sleep(2)

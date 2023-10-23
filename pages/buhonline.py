@@ -28,3 +28,9 @@ class Buhonline(BasePage):
         self.filter_btn = WebElement(driver, 'div.filters--eaa2 > span')
         self.select_filter_btn = WebElement(driver,'div.searchOptions--df0c > div.filters--eaa2 > nav > li:nth-child(2) > a')
         self.select_filter_btn_next = WebElement(driver, 'div.filters--eaa2 > nav > li:nth-child(2) > a')
+
+        self.new_tab = WebElement(driver, 'div.titleWrap--173e')
+        self.new_tub = WebElement(driver, 'div.titleWrap--173e')
+
+
+
